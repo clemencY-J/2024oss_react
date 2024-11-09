@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Component1 from './Component1.js';
 import Component011 from './Component011.js';
+import Hello from './components/Hello.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>
           20241028 react oss class
         </p>
+        <Hello />
         <Component1 />
         <Component011 />
         <a
