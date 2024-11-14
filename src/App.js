@@ -1,30 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import Component1 from './Component1.js';
-import Component011 from './Component011.js';
+import Componentc from './components/Componentc.js';
+import Componentf from './components/Componentf.js';
 import Hello from './components/Hello.js';
+import C20241111 from './components/C20241111.js';
+import C20241114a from './components/C20241114a.js';
+import Router from './components/Router.js'
 
 function App() {
+
+  const tempName= "test1"; 
+  const tempObj = {
+    name : "name1"
+    , number : 101
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          20241028 react oss class
-        </p>
-        <Hello />
-        <Component1 />
-        <Component011 />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router />
+      {/* <Hello name="hahaha" />
+      <C20241114a /> */}
+    </>
   );
 }
 
