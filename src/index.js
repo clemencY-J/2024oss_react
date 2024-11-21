@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// 여기서 많이 선언했지만 보통 Index.js 말고 App.js를 수정해서 한다!
 //JSX style tag
 const myElement01 = <div>112233</div>;
 

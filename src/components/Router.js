@@ -4,6 +4,7 @@ import List from "./page/List.js"
 import Create from "./page/Create.js"
 import Detail from "./page/Detail.js"
 
+
 export default function Router() {
   return (
     <BrowserRouter>

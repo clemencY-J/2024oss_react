@@ -11,6 +11,7 @@ import C20241118UseStateA from './components/C20241118UseStateA.js';
 import C20241118UseStateB from './components/C20241118UseStateB.js';
 import C20241118UseStateC from './components/C20241118UseStateC.js';
 import C20241118UseStateD from './components/C20241118UseStateD.js';
+import C20241121 from './components/C20241121.js';
 
 function App() {
 
@@ -22,13 +23,13 @@ function App() {
 
   return (
     <>
-      {/* <Router /> */}
+      <Router />
       {/* <Hello name="hahaha" />
       <C20241114a /> */}
       {/* <C20241118a title="12345"/>
       <C20241118UseStateA /> */}
       {/* <C20241118UseStateB /> */}
-      <C20241118UseStateD />
+      {/* <C20241121 /> */}
     </>
   );
 }
