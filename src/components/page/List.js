@@ -8,7 +8,7 @@ export default function List() {
   const [tempList, setTempList] = useState(defaultList);
 
   const getTest = () => {
-    axios.get("https://2024oss-react.netlify.app/my_data.json")
+    axios.get("https://2024oss-react-7e52hf6kv-youngjuns-projects-09775b66.vercel.app/my_data.json")
       .then((response) => {
         console.log(JSON.stringify(response.data));
         setTempList(response.data)
