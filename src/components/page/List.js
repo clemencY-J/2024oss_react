@@ -12,7 +12,7 @@ export default function List() {
   const [tempList, setTempList] = useState(defaultList);
 
   const getTest = () => {
-    axios.get("https://2024oss-react-m1bsbxiai-youngjuns-projects-09775b66.vercel.app/my_data.json")
+    axios.get("https://2024oss-react-66t3w1u94-youngjuns-projects-09775b66.vercel.app/my_data.json")
       .then((response) => {
         console.log("데이터 로드 성공:", JSON.stringify(response.data));
         setTempList(response.data.students); // students 배열 사용
